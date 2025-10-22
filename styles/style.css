@@ -1,1 +1,153 @@
-/* место для вашего кода */
+body {
+  background-color: azure;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 293px;
+  background-color: white;
+}
+
+.header__menu {
+}
+
+.header__links-list {
+  display: flex;
+  list-style: circle;
+  gap: 30px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__links-list-item {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__link {
+}
+
+.header__logo {
+  display: block;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+  top: 92px;
+  left: 478px;
+  opacity: 1;
+}
+
+.address {
+  max-width: 240px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.header__address {
+  justify-self: end;
+}
+
+.cover {
+  position: relative;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.overlay {
+  background-color: #000000;
+  opacity: 60%;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.cover__title {
+  font-family: Raleway;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 114.99999999999999%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  padding: 180px 20px 140px 50px;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.cover__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.cover__description-text {
+  color: #ffffff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+  word-spacing: 20px;
+}
+
+.bet-button {
+  opacity: 1;
+  border-width: 1px;
+
+  color: white;
+  border-color: white;
+  background: transparent;
+
+  padding: 12px 32px 11px 31px;
+
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.lots {
+  height: 723px;
+}
+.about {
+  height: 595px;
+  background-color: white;
+}
+
+.footer {
+  height: 180px;
+  background-color: white;
+}
