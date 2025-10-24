@@ -8,9 +8,6 @@
   height: 293px;
 }
 
-.header__menu {
-}
-
 .header__links-list {
   display: flex;
   list-style: circle;
@@ -30,9 +27,6 @@
 
 .header__link_active {
   text-decoration: none;
-}
-
-.header__link {
 }
 
 .header__logo {
@@ -330,9 +324,6 @@
   text-align: center;
 }
 
-.footer__menu-link {
-}
-
 .footer__menu-link_active {
   text-decoration: none;
 }
@@ -349,9 +340,6 @@
 
 .footer__social-list-item {
   list-style-type: none;
-}
-
-.footer__social-link {
 }
 
 .footer__social-icon {
