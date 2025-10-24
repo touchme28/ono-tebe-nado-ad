@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* HEADER */
 .header {
   display: grid;
@@ -283,8 +289,8 @@
   line-height: 24px;
 }
 
-.about__text p:first-of-type {
-  margin-bottom: 24px; /* Отступ только для первого абзаца */
+.about__text p:not(:last-of-type) {
+  margin-bottom: 24px; /* Отступ для всех абзацев, кроме последнего */
 }
 
 .about__text p:last-of-type {
